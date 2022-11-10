@@ -3,6 +3,6 @@ dependencies:
   - pandas
   - matplotlib=3.3.4
   - pip:
-    - geopandas
+    - geopandas=0.10.2
     - shapely
     - click==8
