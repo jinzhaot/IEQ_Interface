@@ -1,6 +1,5 @@
 name: interface
 dependencies:
-  - pandas
   - matplotlib=3.3.4
   - pip:
     - geopandas=0.10.2
