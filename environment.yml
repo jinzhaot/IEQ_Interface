@@ -1,0 +1,8 @@
+name: interface
+dependencies:
+  - pandas
+  - matplotlib=3.3.4
+  - pip:
+    - geopandas
+    - shapely
+    - click==8
