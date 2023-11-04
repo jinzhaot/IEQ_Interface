@@ -11,7 +11,7 @@ os.environ["TZ"] = "UTC"
 time.tzset()
 st.set_page_config(layout='wide')
 
-@st.cache(suppress_st_warning=True)
+@st.cache_data
 def read_shpe(select_parm):
     # Read the Temperature and Humidity Data
     if select_parm == 'Temperature' or 'RH':
