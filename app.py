@@ -67,7 +67,8 @@ def read_shpe(select_parm):
         return gdf, bound, hollow
 
 
-@st.cache(suppress_st_warning=True, allow_output_mutation=True)
+# @st.cache(suppress_st_warning=True, allow_output_mutation=True)
+@st.cache_data
 def read_cm(select_parm):
 
     # Create the Colormap for Temperature
