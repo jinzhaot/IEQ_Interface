@@ -1,5 +1,5 @@
-matplotlib==3.3.4
-geopandas==0.10.2
+matplotlib
+geopandas
 shapely
 click==8
 streamlit
